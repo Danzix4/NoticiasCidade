@@ -11,6 +11,9 @@ ul{
     padding: 0;
     list-style: none;
 }
+a{
+    color:rgb(199, 0, 0);
+}
 h2{
     font-size: 1.1em;
     background: #294c71;
@@ -91,6 +94,7 @@ input.submit:hover{
 }
 #logo{
     display: block;
+    border:none;
 }
 #conteudo{
     background: #f5f5f5;
@@ -106,16 +110,14 @@ input.submit:hover{
     float: left;
 }
 #duas-colunas #primario{
-    width: 555px;
+    width: 540px;
     margin: 0px 15px 20px 15px;
     float: left;
-    background: blue;
 }
 #uma-coluna #primario{
     width: 750px;
     margin: 0px 15px 20px 15px;
     float: left;
-    background: blue;
 }
 #secundario{
     width: 270px;
@@ -125,6 +127,7 @@ input.submit:hover{
     clear: both;
     background: #294c71;
     padding: 20px;
+    text-align: center;
 }
 #conteudo-rodape{
     width: 750px;
@@ -145,6 +148,32 @@ input.submit:hover{
     background: #f9f9f9 url(../img/marcador.png) no-repeat left;
     text-indent: 18px;
     color: #a1a1a1;
+}
+#lista-noticia li{
+    padding: 10px 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticia li a{
+    text-decoration: none;
+}
+#lista-noticia li a img{
+    float: left;
+    margin: 5px;
+    width: 95px;
+}
+#lista-noticia li a h3{
+   font-size: 0.8em;
+   background:whitesmoke;
+   color: #3e7ab9;
+}
+#lista-noticia li a p{
+    font-size: 0.7em;
+    margin: 3px;
+}
+ #lista-noticia li:hover{
+    background: #eeee;
+    cursor: pointer;
 }
 .caixa{
     margin: 10px 0px;
