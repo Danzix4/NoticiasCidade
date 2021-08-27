@@ -17,6 +17,21 @@ h2{
     color: #fff;
     padding: 5px;
 }
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: #fff;
+}
+img{
+    border: 2px solid #dfdfdf;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
 label{
     display: block;
     cursor: pointer;
@@ -85,11 +100,10 @@ input.submit:hover{
     width: 180px;
     float: left;
 }
-#tres-colunas #primario{
+#primario{
     width: 270px;
     margin: 0px 15px 20px 15px;
     float: left;
-    background: blue;
 }
 #duas-colunas #primario{
     width: 555px;
@@ -106,7 +120,6 @@ input.submit:hover{
 #secundario{
     width: 270px;
     float: left;
-    background: brown;
 }
 #rodape{
     clear: both;
@@ -118,16 +131,6 @@ input.submit:hover{
     margin: 0 auto;
     color: #fff;
 
-}
-.caixa{
-    margin: 10px 0px;
-    background: #f3f3f3 url(../img/fundo-caixa.png);
-    padding: 5px;
-}
-.caixa-conteudo{
-    background: #fff;
-    padding: 5px;
-    margin-top: 5px;
 }
 #lateral ul a{
     font-size: 0.9em;
@@ -143,3 +146,14 @@ input.submit:hover{
     text-indent: 18px;
     color: #a1a1a1;
 }
+.caixa{
+    margin: 10px 0px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    padding: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
